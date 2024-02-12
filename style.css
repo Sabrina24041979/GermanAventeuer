@@ -1,0 +1,106 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #000000 0%, #FFD100 20%, #D00A00 40%, #FFD100 60%, #000000 80%);
+    background-blend-mode: overlay, overlay, overlay, normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #0d0d0e; /* Couleur pour le drapeau allemand */
+    width: 100%;
+    padding-left: 35px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Modification pour espacer le logo et le nom */
+    align-items: center;
+  }
+
+  header img{
+    width: 25%;
+  }
+  
+  #logoAndName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  header p {
+    margin-top: 2%; /* Ajuster la marge pour un espacement équilibré */
+    align-items: center;
+  }
+  
+  h1 {
+    color: #FFD700; /* Couleur jaune pour le drapeau allemand */
+  }
+  
+  img {
+    width: 75px;
+  }
+  
+  h2 {
+    font-size: xx-large;
+    }
+  
+  p{
+    padding-top: 15px;
+  }
+  
+  span{
+    color: #FFD700; /* Couleur jaune pour le drapeau allemand */
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px;
+    padding: 25px;
+  }
+  
+  button {
+    margin-top: 30px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #FFD700; /* Couleur jaune pour le drapeau allemand */
+    color: black; /* Couleur du texte adaptée */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #000000; /* Couleur pour le drapeau allemand */
+  }
+
+  footer img{
+    width: 20%;
+    display: flex;
+    margin-left: 760px;
+  }
+
+
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 600px) {
+    header {
+      padding: 10px;
+    }
+    .container {
+      margin: 10px;
+    }
+  }
+  
+  /* Ajouter d'autres média queries ici pour tablettes et desktops */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Ajouter des styles pour les tablettes ici */
+  }
+  
+  @media screen and (min-width: 1025px) {
+    /* Ajouter des styles pour les écrans de bureau ici */
+  }

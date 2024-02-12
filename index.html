@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <!-- Méta-informations -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Titre de la page -->
+  <title>GermanAbenteuer</title>
+  <!-- Lien vers la feuille de style externe -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- En-tête de la page -->
+  <header>
+    <div class="logoAndName">
+      <!-- Image du drapeau allemand avec texte alternatif descriptif -->
+      <img src="image/German-card.png" alt="">
+      <!-- Titre principal de la page -->
+      <h1>GermanAbenteuer</h1>
+    </div>
+  </header>
+
+  <!-- Phrase d'accroche avec une portion surlignée -->
+  <p>"Entdecke die Welt der Wörter und habe Spaß dabei! <span>GermanAbenteuer</span>, wo Wörter Freunde sind, die Sprachen lustig machen!"</p>
+  
+  <!-- Contenu principal de la page -->
+  <div class="container">
+    <!-- Sous-titre de la section -->
+    <h2>GermanAbenteuer</h2>
+    <!-- Paragraphe vide avec un identifiant pour afficher les phrases dynamiquement -->
+    <p id="phrase"></p>
+    <!-- Bouton déclenchant la fonction nextPhrase() lorsqu'il est cliqué -->
+    <button onclick="nextPhrase()">Nächster Satz</button>
+  </div>
+
+  <footer>
+    <img src="image/german_background.png" alt="">
+ 
+   
+  </footer>
+
+  <!-- Inclusion du script JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
